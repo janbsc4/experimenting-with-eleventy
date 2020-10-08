@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-pageTitle: My Rad Markdown Blog Post
+pageTitle: What is SEO
 ---
 # Whats is a SEO and why should I care?
 
