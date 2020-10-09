@@ -1,13 +1,9 @@
 body {
 	font-family: sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	line-height: 1.6;
 	color: #1E2023;
 	background-color: #FFFDFB;
-	max-width: 50rem;
+	max-width: 45rem;
 	margin: 0 auto;
-}
-
-h2 {
-	color: grey;
 }
