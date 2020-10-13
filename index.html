@@ -5,7 +5,6 @@ pageTitle: Welcome to my blog
 <h1>Welcome to a bunch of notes</h1>
 <p>Here is a bunch or random notes. Just pasted in here to see how fast I can turn markdown files into a working blog.</p>
 {% for post in collections.posts %}
-    <h2><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h2>
+    <h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
     <em>{{ post.date | date: "%Y-%m-%d" }}</em>
-    <p> {{ post.data.content }} </p>
 {% endfor %}

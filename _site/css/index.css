@@ -6,4 +6,7 @@ body {
 	background-color: #FFFDFB;
 	max-width: 45rem;
 	margin: 0 auto;
+	padding: 3rem;
 }
+
+::selection { background-color: #f7ff00; }
